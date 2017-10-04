@@ -11,7 +11,7 @@ target/
 .classpath
 .project
 .settings
-/.idea
+
 
 *.DS_Store
 [Tt]humbs.db
