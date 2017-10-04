@@ -41,7 +41,7 @@ public class Driver {
     }
 
     public static void init() {
-        Propertiess.init();
+       // Propertiess.init();
         if (System.getProperty("test.browser").equalsIgnoreCase("Firefox")) {
             input_driver = new FirefoxDriver();
         } else if (System.getProperty("test.browser").equalsIgnoreCase("Chrome")) {
